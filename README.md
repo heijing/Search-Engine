@@ -16,7 +16,7 @@
 3. search: is about process the topic, build a language model and use smoothing probability method to compute the the word probability in every query, and based on the word probability in document, rank the document.
 
 ###Requirement:
-    You only need to have java version JDK 1.6 and higher.
+    You only need to have java version JDK 1.6 or higher.
 ###User guide: 
     run the main method.
 1. HW2Main1, if you run it, you can pre-processing your collection, and get the text-formatted inverted index from the TREC formatted collections. After running it, you will get three text file. One is “DictionaryTermFile.txt”, one is “PostingFile.txt”, and another file is called “Doc.txt”.
