@@ -1,6 +1,6 @@
 # Search-Engine
 ###Project title: Search Engine for Document Collection
-###Project summary and pre-description
+###Project summary and pre-description:
     Object: It is a search engine you can get your top 500 results of your queries based on a TREC standard formatted collection (See more in background).
     Pre-description: 1. Queries for test are all set (See more in background).
                      2. The original document is two type, TREC doc and TREC text, do not worry about the format, I just extract the useful information (document id, document contents)
