@@ -11,17 +11,17 @@
  1. remove the stop words in document (See more in background) 
  2. change every word to lower case 
  3. remove all the punctual and use space to separate them.
-2. index: is about build a inverted index to map the words in collection. There are two types of inverted index: posting list, which stores the (term, document id, term frequency in document)
-“DictionayTermFile” (term,term frequency in all documents) and one auxiliary document called "doc"(it records the document id and number of words in that document.)(See more in Background)
+2. index: is about build a inverted index to map the words in collection. There are two types of inverted index: posting list, which stores "term, document id, term frequency in document"
+“DictionayTermFile” which stores "term,term frequency in all documents" and one auxiliary document called "doc"(it records the document id and number of words in that document.)(See more in Background)
 3. search: is about process the topic, build a language model and use smoothing probability method to compute the the word probability in every query, and based on the word probability in document, rank the document.
 
 ###Requirement:
     You only need to have java version JDK 1.6 or higher.
 ###User guide: 
     run the main method.
-1. HW2Main1, if you run it, you can pre-processing your collection, and get the text-formatted inverted index from the TREC formatted collections. After running it, you will get three text file. One is “DictionaryTermFile.txt”, one is “PostingFile.txt”, and another file is called “Doc.txt”.
+1. HW2Main1, if you run it, you can pre-processing your collection, and get the text-formatted inverted index from the TREC formatted collections. After running it, you will get three text files. One is “DictionaryTermFile.txt”, one is “PostingFile.txt”, and another file is called “Doc.txt”.
 2. HW2Main2, if you want to search one word, and know how many time it appears in the collection and which document it appears, you can run it, you can change your word from "String token ="looser"; change any word you like, just replace the “looser” with it.
-3. HW3Main, If you run it, you can completed build the search model, and get the sorted result of the every query.
+3. HW3Main, If you run it, you can complete build the search model, and get the sorted result of  every query.
 The result format is:
              902     Q0 WSJ870520-0002 234 1.39051913440501E-9                MYRUN
 explanation: topicid Q0     Documentid   rank-number-in-one-query Rank-score MYRUN
